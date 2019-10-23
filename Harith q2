@@ -1,0 +1,33 @@
+//Question 2-Harith
+#include <iostream>
+
+using namespace std;
+
+//
+void swap(int x,int y);
+
+int main()
+{
+	int x = 10, y = 79;
+	
+	cout << "The original value of x is =" << x << endl;
+	cout << "The original value of y is =" << y << endl;
+	swap(x,y);
+
+	return 0;
+
+}
+
+void swap(int x, int y)
+{
+    
+	int temp = x;
+	x = y;
+	y = temp;
+	
+	cout << "The swap value of x is =" << x << endl;
+	cout << "The swap value of y is =" << y << endl;
+
+}
+
+
